@@ -5,8 +5,8 @@ Implementation of ABD protocol
 
 ## Step 1:
 
-The first step is to generate the gRPC client and server interfaces from your .proto service definition /
-For the same use this command on the command prompt: /
+The first step is to generate the gRPC client and server interfaces from your .proto service definition <br />
+For the same use this command on the command prompt: <br />
 
 $ python3 -m grpc_tools.protoc -I . --python_out=. --grpc_python_out=. AnketAbdProto.proto
 
@@ -26,7 +26,7 @@ The generated code files are called AnketAbdProto_pb2.py and AnketAbdProto_pb2_g
 
 ## Step 2:
 
-The next step is to run and test the program./
+The next step is to run and test the program. <br />
 Run the server, which will listen on port 2222:
 
 $ python AnketAbdServer.py
