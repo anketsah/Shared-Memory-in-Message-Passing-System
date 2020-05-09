@@ -1,7 +1,12 @@
 # Shared-Memory-in-Message-Passing-System
-CS 249-Distributed Computing by Prof. Benjamin Reed
 
-Implementation of ABD protocol
+## What is it?
+An implementation of ABD protocol
+
+## Technologies used
+Python, gRPC
+
+## How it works
 
 ## Step 1:
 
