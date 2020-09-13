@@ -13,7 +13,9 @@ Python, gRPC
 The first step is to generate the gRPC client and server interfaces from your .proto service definition <br />
 For the same use this command on the command prompt: <br />
 
+```
 $ python3 -m grpc_tools.protoc -I . --python_out=. --grpc_python_out=. AnketAbdProto.proto
+```
 
 The generated code files are called AnketAbdProto_pb2.py and AnketAbdProto_pb2_grpc.py and contain:
 <br />
@@ -34,8 +36,8 @@ The generated code files are called AnketAbdProto_pb2.py and AnketAbdProto_pb2_g
 The next step is to run and test the program. <br />
 Run the server, which will listen on port 2222:
 
-$ python AnketAbdServer.py
+```$ python AnketAbdServer.py```
 
 Run the client (in a different terminal):
 
-$ python AnketAbdClient.py 
+```$ python AnketAbdClient.py ```
